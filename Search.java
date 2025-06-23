@@ -7,8 +7,8 @@ public class Search {
         System.out.print("Enter Element to find it: ");
         int target = sc.nextInt();
         int count = 0;
-        for (int i = 0; i < arrays.length; i++) {
-            if (target == arrays[i]) {
+       for (int element : arrays) {
+            if (target == element) {
                 count++;
             }
         }
